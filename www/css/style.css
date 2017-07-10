@@ -1,0 +1,88 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  position: relative;
+  background: #EA2728;
+  color: #fff;
+  font-size: 0.14rem; }
+  header .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding-right: 0.2rem;
+    font-size: 0.16rem; }
+
+main {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #F6F6F6; }
+  main .banner img {
+    width: 100%;
+    height: 1.11rem;
+    float: left; }
+  main .one {
+    margin-bottom: 0.15rem; }
+    main .one p {
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 0.3rem;
+      padding-left: 0.12rem;
+      line-height: 0.3rem; }
+      main .one p span {
+        padding-left: 0.1rem;
+        border-left: 3px solid red; }
+    main .one nav {
+      display: flex;
+      flex-wrap: wrap; }
+      main .one nav a {
+        width: 25%;
+        height: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box; }
+        main .one nav a:nth-child(4n) {
+          border-right: none; }
+        main .one nav a img {
+          margin-top: 0.11rem;
+          width: 0.28rem;
+          height: 0.29rem; }
+        main .one nav a span {
+          font-size: 0.1rem;
+          color: #666;
+          padding-top: 0.12rem; }
+
+footer {
+  height: 0.44rem;
+  background: #fff;
+  display: flex; }
+  footer a {
+    flex: 1;
+    color: #FF3D3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer a .icon {
+      padding-top: 0.06rem;
+      font-size: 0.18rem;
+      font-weight: bolder; }
+    footer a span {
+      color: #ccc;
+      font-size: 0.1rem; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
